@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 80% !important;               
+    background-color:#000000;
+    height: 1px;
+    margin: 1px;
+}
+
+/* Modify Color of Nav Buttons */
+.custom-navbar, .custom-navbar a, .custom-navbar a:hover {
+    background-color: #ffffff;
+    color: #DC3545;
+}
+
+/* Modify Color of Active Nav Button  */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color:  #DC3545;
+}
+
+.custom-navbar button {
+    color: rgb(0, 0, 0) !important;
+}
+
+.cstm-rounded {
+    border-radius: 20px;
+}
+
+
+/* Background Image */
+.background-image {
+    background-image: url("../assets/images/sample-bg-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* inserted images */
+.i-track-icon-rounded {
+    background-image: url("../assets/icons/i-track-round.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.batstateu-icon {
+    background-image: url("../assets/icons/bsu-logo.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.vector-cartoon-graph {
+    background-image: url("../assets/images/graph-cartoon.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.giant-text-headings {
+    font-size: 64px !important;
+    font-weight: bolder !important;
+}
+.i-track-mobile-showcase {
+    background-image: url("../assets/images/i-track-mobile-showcase.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.website-showcase {
+    background-image: url("../assets/images/website-showcase.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* inserted images */
+
+
+
+/* Header Image for Login Page */
+.header-bg-img {
+    width: 100%;
+    background-image: url("../assets/images/header-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Header Image for Nav bar */
+.header-bg-img-1 {
+    width: 100%;
+    background-image: url("../assets/images/nav-bg-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Glass Effect for containers */
+.glassmorphism-1 {
+    background: rgba(255, 255, 255, 0.842) !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+}
+
+/* Overwrite A Link Color */
+a.alink-color, a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+
+/* Apply Vertical Margin for div containers inside card-body */
+/* Used in personal information in dashboard */
+.card-body div {
+    margin: 10px 0;
+}
+/* Horizontally center an element */
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Vertically center an element */
+.vertical-center {
+    min-height: 100%;  
+    min-height: 100vh; 
+  
+    display: flex;
+    align-items: center;
+}
+
+/* For Error message */
+.error{
+    color: #D8000C;
+    background-color: #FFBABA;    
+    padding:5px;
+    margin-bottom: 2px;
+}
+
+
+    
+
+/* Custom Card CSS Effects */
+.cstm-card-1 {
+    border-radius: 20px;
+    background: #f5f5f5;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+}
+.cstm-card-1:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.cstm-card-2 {
+    border-radius: 20px;
+    background: #f5f5f5;
+    padding: 1.8rem;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease-out;
+}
+.cstm-card-2:hover {
+    box-shadow: 0 4px 18px rgba(231, 118, 129);
+}
+
+.cstm-hover:hover {
+    background-color:  #e77681 !important;
+    color:white !important;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
